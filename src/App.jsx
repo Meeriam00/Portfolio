@@ -105,13 +105,22 @@ const App = () => {
   // Experience
   const jobs = [
     {
+      title: "Front-End Instructor",
+      company: "Matrix Academy, Azerbaijan, Baku",
+      description:
+        "Teaching Front-End Development, including HTML, CSS, Bootstrap, JavaScript, and React. Guiding students through practical lessons, projects, and debugging to help them build responsive interfaces.",
+      from: "August 2025",
+      to: "Present",
+      duration: "4 month",
+    },
+    {
       title: "Front-End Developer",
       company: "Webluna Software, Azerbaijan, Baku",
       description:
         "In the Front-End Development, developing responsive interfaces using HTML, CSS, SCSS, Bootstrap, JavaScript, React, API customization and working with REST APIs.",
       from: "May 2025",
       to: "Present",
-      duration: "4 month",
+      duration: "9 month",
     },
     {
       title: "Front-End Developer",
@@ -394,6 +403,26 @@ const App = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+             <div data-aos="fade-up" className="list">
+                <h2>Experience</h2>
+                {jobs.map((job, index) => (
+                  <div
+                    data-aos="fade-up"
+                    className="education-card"
+                    key={index}
+                  >
+                    <h3 className="type">{job.title}</h3>
+                    <p className="institution">{job.company}</p>
+                    <p className="field">{job.description}</p>
+                    <p className="duration">
+                      {job.from} – {job.to} ({job.duration})
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="col-12 col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <div data-aos="fade-up" className="list">
                 <h2>Education</h2>
                 {educationData.map((edu, index) => (
@@ -407,26 +436,6 @@ const App = () => {
                     <p className="field">{edu.field}</p>
                     <p className="duration">
                       {edu.from} – {edu.to}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="col-12 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <div data-aos="fade-up" className="list">
-                <h2>Experience</h2>
-                {jobs.map((job, index) => (
-                  <div
-                    data-aos="fade-up"
-                    className="education-card"
-                    key={index}
-                  >
-                    <h3 className="type">{job.title}</h3>
-                    <p className="institution">{job.company}</p>
-                    <p className="field">{job.description}</p>
-                    <p className="duration">
-                      {job.from} – {job.to} ({job.duration})
                     </p>
                   </div>
                 ))}
