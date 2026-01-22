@@ -111,7 +111,7 @@ const App = () => {
         "Teaching Front-End Development, including HTML, CSS, Bootstrap, JavaScript, and React. Guiding students through practical lessons, projects, and debugging to help them build responsive interfaces.",
       from: "August 2025",
       to: "Present",
-      duration: "4 month",
+      duration: "6 month",
     },
     {
       title: "Front-End Developer",
@@ -120,7 +120,7 @@ const App = () => {
         "In the Front-End Development, developing responsive interfaces using HTML, CSS, SCSS, Bootstrap, JavaScript, React, API customization and working with REST APIs.",
       from: "May 2025",
       to: "Present",
-      duration: "9 month",
+      duration: "11 month",
     },
     {
       title: "Front-End Developer",
