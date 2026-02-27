@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import personalImg from "../src/assets/img/nobg.png";
-import pdf from "../src/assets/img/Meryem-Abdullayeva.pdf";
+import personalImg from "../src/assets/img/personal.png";
+import pdf from "../src/assets/img/CV.pdf";
 import {
   FaBootstrap,
   FaCss3Alt,
@@ -108,29 +108,20 @@ const App = () => {
       title: "Front-End Instructor",
       company: "Matrix Academy, Azerbaijan, Baku",
       description:
-        "Teaching Front-End Development, including HTML, CSS, Bootstrap, JavaScript, and React. Guiding students through practical lessons, projects, and debugging to help them build responsive interfaces.",
+        "Teaching Front-End Development, including HTML, CSS, Bootstrap, JavaScript, React, and Redux Toolkit. Mentoring students in building real-world, production-style projects and guiding them through practical lessons, debugging, and project structuring. Reviewing code and providing architectural and performance feedback while explaining state management, component architecture, clean code principles, and API integration best practices. Introducing Git workflows and collaboration standards to prepare students for professional development environments.",
       from: "August 2025",
       to: "Present",
-      duration: "6 month",
+      duration: "7 month",
     },
     {
       title: "Front-End Developer",
       company: "Webluna Software, Azerbaijan, Baku",
       description:
-        "In the Front-End Development, developing responsive interfaces using HTML, CSS, SCSS, Bootstrap, JavaScript, React, API customization and working with REST APIs.",
-      from: "May 2025",
-      to: "Present",
+        "Developed scalable and responsive web applications using React and TypeScript, implemented advanced state management with Redux Toolkit and RTK Query, integrated RESTful APIs with efficient asynchronous data handling, optimized performance through memoization and lazy loading (React.lazy, Suspense), improved UI responsiveness across mobile and tablet devices, collaborated with backend developers and designers in Agile environments, and managed version control using Git and GitHub in a team setting",
+      from: "March 2025",
+      to: "February 2026",
       duration: "11 month",
-    },
-    {
-      title: "Front-End Developer",
-      company: "Intern Intelligence, Remote",
-      description:
-        "I have developed web projects such as login panels, portfolios, movie promotion sites, e-commerce",
-      from: "June 2025",
-      to: "July 2025",
-      duration: "1 month",
-    },
+    }
   ];
   // Experience
 
@@ -328,11 +319,7 @@ const App = () => {
                 Hi, I’m <span>Meryem Abdullayeva</span>
               </h1>
               <p className="fade-in delay-1">
-                Junior Front-End Developer interested in creating user-friendly
-                and aesthetically appealing web interfaces.Testing the
-                functionality and appearance of web pages, thinking
-                user-oriented, and solving problems creatively are some of my
-                main strengths....🚀
+                Front-End Developer with 1+ year of commercial experience building scalable and responsive web applications using React and TypeScript. Experienced in state management with Redux Toolkit and RTK Query, API integration, and performance optimization. Currently working as a Front-End Instructor, mentoring students in modern frontend technologies. Passionate about clean code, reusable component architecture, and user-centered design.....🚀
               </p>
               <a href={pdf} download className="hero-button">
                 Download CV <FaDownload />
